@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Proie.html" title="Metier.Proie" alt="" coords="16,198,67,223"/>
+<area shape="rect" id="node1" href="./Proie.html" title="&lt;TABLE&gt;" alt="" coords="5,187,77,235"/>
+<area shape="rect" id="node2_1" href="./Predateur.html" title="Metier.Predateur" alt="" coords="112,198,189,223"/>
+<area shape="rect" id="node2" href="./Predateur.html" title="&lt;TABLE&gt;" alt="" coords="101,187,200,235"/>
+<area shape="rect" id="node3_2" href="./Cell.html" title="Metier.Cell" alt="" coords="45,11,147,133"/>
+<area shape="rect" id="node3" href="./Cell.html" title="&lt;TABLE&gt;" alt="" coords="34,6,158,138"/>
+</map>

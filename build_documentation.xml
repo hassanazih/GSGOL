@@ -1,0 +1,20 @@
+<project default="javadocs">
+	<property name="src.dir" location="src"/>
+	<property name="reports.dir" location="reports"/>
+	<property name="umlgraph.dir" location="C:\\Users\\Anonymous\\Desktop\\UMLGraph-5.4\\lib"/>
+	
+	<target name="javadocs">
+		<mkdir dir="${reports.dir}/javadoc" />
+		<javadoc 
+			sourcepath="${src.dir}" 
+			packagenames="Metier.*,Modeles.*,Vue.*,Controlleurs.*" 
+			destdir="${reports.dir}/javadoc" >
+			
+			<doclet name="org.umlgraph.doclet.UmlGraphDoc" path="${umlgraph.dir}/UMLGraph.jar">
+				<param name="-operations" />
+				<param name="-visibility" />
+				<param name="-package" />
+			</doclet>
+		</javadoc>
+	</target>
+</project>

@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Rules.html" title="Metier.Rules" alt="" coords="16,59,96,165"/>
+<area shape="rect" id="node1" href="./Rules.html" title="&lt;TABLE&gt;" alt="" coords="5,54,107,170"/>
+<area shape="rect" id="node2_1" href="./Reconstruct.html" title="Metier.Reconstruct" alt="" coords="142,27,279,197"/>
+<area shape="rect" id="node2" href="./Reconstruct.html" title="&lt;TABLE&gt;" alt="" coords="131,22,290,202"/>
+<area shape="rect" id="node3_2" href="./Proie.html" title="Metier.Proie" alt="" coords="296,278,347,303"/>
+<area shape="rect" id="node3" href="./Proie.html" title="&lt;TABLE&gt;" alt="" coords="285,267,357,315"/>
+<area shape="rect" id="node4_3" href="./Predateur.html" title="Metier.Predateur" alt="" coords="392,278,469,303"/>
+<area shape="rect" id="node4" href="./Predateur.html" title="&lt;TABLE&gt;" alt="" coords="381,267,480,315"/>
+<area shape="rect" id="node5_4" href="./Environnement.html" title="Metier.Environnement" alt="" coords="473,11,641,213"/>
+<area shape="rect" id="node5" href="./Environnement.html" title="&lt;TABLE&gt;" alt="" coords="463,6,652,218"/>
+<area shape="rect" id="node6_5" href="./Cell.html" title="Metier.Cell" alt="" coords="325,51,427,173"/>
+<area shape="rect" id="node6" href="./Cell.html" title="&lt;TABLE&gt;" alt="" coords="314,46,438,178"/>
+</map>

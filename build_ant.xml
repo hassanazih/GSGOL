@@ -1,0 +1,50 @@
+
+<project name ="TP_Simu" default="run" basedir=".">
+
+	<property name="src.dir"     value="src"/>
+	<property name="bin.dir"   value="bin"/>
+	<property name="jar.dir" value="jar"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="jar.name" value="Launcher.jar"/>
+	<property name="main-class"  value="Main"/>
+
+	
+	
+	
+	<target name="clean">
+		<delete dir="${bin.dir}"/>
+		<delete dir="${jar.dir}"/>
+		<echo message="nettoyage termine"/>
+	</target>
+	
+	<path id="libs">
+    <fileset dir="./lib">
+        <include name="**/*.jar"/>
+    </fileset>
+	</path>
+	
+	
+	<target name="compile" depends="clean">
+		<mkdir dir="${bin.dir}"/>
+		<javac srcdir="${src.dir}" classpathref="libs" destdir="${bin.dir}"/>
+		<echo message="compilation terminee"/>
+	</target>
+	
+	
+	
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dir}"/>
+			<jar destfile="${jar.dir}/${jar.name}" basedir="${bin.dir}">
+				<manifest>
+					<attribute name="Main-Class" value="${main-class}"/>
+				</manifest>
+			</jar>
+		<echo message="Creation du fichier Jar terminee"/>
+	</target>
+
+	<target name="run" depends="jar">
+		<java jar="${jar.dir}/${jar.name}" classpathref="libs" fork="true"/>
+	</target>
+
+</project>
+
